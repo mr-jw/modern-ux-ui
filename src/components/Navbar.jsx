@@ -50,7 +50,7 @@ export default function Navbar() {
               onClick={() => setMobileMenuIsOpen((prev) => !prev)}
             >
               {mobileMenuIsOpen ? (
-                <X />
+                <X className="w-5 h-5 sm:w-6 sm:h-6"/>
               ) : (
                 <Menu className="w-5 h-5 sm:w-6 sm:h-6" />
               )}
